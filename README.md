@@ -1,6 +1,8 @@
 # R-template
 Template for a data analysis project in R 
-** Work in progress! **
+
+# Note
+**Work in progress!**
 This repo is not yet complete.
 
 # For more info
