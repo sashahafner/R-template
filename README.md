@@ -1,5 +1,7 @@
 # R-template
 Template for a data analysis project in R 
+** Work in progress! **
+This repo is not yet complete.
 
 # For more info
 * Introduction to data analysis: <https://github.com/sashahafner/CCPDA>
