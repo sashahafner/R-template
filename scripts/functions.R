@@ -1,5 +1,7 @@
 # Load additional functions
 
+# RAD: Note the user of *relative* file paths
+
 source('../functions/dfsumm.R')
 source('../functions/rounddf.R')
 

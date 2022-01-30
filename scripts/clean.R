@@ -1,3 +1,3 @@
-# Clean data, intermediate calculations
+# Clean data, take subsets, make intermediate calculations
 
-dat <- na.omit(dat)
+dat <- subset(dat, rh.tar == 70)

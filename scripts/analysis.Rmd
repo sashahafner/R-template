@@ -1,0 +1,25 @@
+---
+title: 'Data analysis for _____'
+output: pdf_document
+classoption: portrait
+author: Sasha D. Hafner
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+---
+
+# Summary
+
+RAD: `summary()` is an alternative.
+
+```{r}
+dfsumm(dat)
+```
+RAD: Check replication or balance
+
+```{r}
+table(dat$temp.c, dat$speed.tar)
+```
+
+
+# 
+
+
