@@ -1,5 +1,5 @@
 # Main script for data analysis
-# RAD: Note that "RAD" means "read and delete", it precedes notes meant to be deleted by you, the user
+# RAD: Note that "RAD" means "read and delete", it precedes notes meant to be first read and then deleted by you, the user
 # RAD: Call all scripts through this main script, so the complete analysis can be run by running main.R
 # RAD: If necessary (if not automatically done), set the working directory to the location of this script before running
 
@@ -17,4 +17,4 @@ render('analysis.Rmd', output_dir = '../logs')
 #source('analysis.R')
 source('summ.R')
 source('export.R')
-source('plots.R')
+source('plot.R')

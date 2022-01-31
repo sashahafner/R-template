@@ -1,14 +1,13 @@
 ---
 title: 'Data analysis for _____'
 output: pdf_document
-classoption: portrait
 author: Sasha D. Hafner
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 ---
 
 # Summary
 
-RAD: `summary()` is an alternative.
+RAD: `dfsumm()` gives a nice summary. The `summary()` function is an alternative.
 
 ```{r}
 dfsumm(dat)
@@ -19,7 +18,16 @@ RAD: Check replication or balance
 table(dat$temp.c, dat$speed.tar)
 ```
 
+# Plots
+RAD: It is possble to include plots here, and certainly useful for data exploration prior to fitting a model.
+RAD: But doing so will slow down creation of the pdf.
 
-# 
+# Regression analysis
 
+```{r}
+mod1 <- lm(log10(emis.n) ~ temp.c + speed, data = dat)
+summary(mod1)
 
+dat$pred1 <- predict(mod1)
+dat$resid1 <- resid(mod1)
+```

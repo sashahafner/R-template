@@ -1,7 +1,7 @@
 # Load packages
 # RAD: Load all necessary add-on packages and no others!
 
-library('reshape2')
+library('ggplot2')
 library('rmarkdown')
 
 # RAD: Good practice to keep a record of R and all package versions
