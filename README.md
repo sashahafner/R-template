@@ -3,11 +3,12 @@ Template for a data analysis project in R
 
 # Quick guide
 This repo contains a template for a data analysis project in R.
-To use it, click the green "Code" button at the top to clone the repo, or [download](https://github.com/sashahafner/R-template/archive/refs/heads/main.zip) a ZIP archive.
-Extract the files, move to a suitable directory, navigate to `/scripts/main.R`, and start editing the scripts to fit your project.
+The objective is to make it easy for any R users to set up a data analysis project.
+To use the "template", click the green "Code" button at the top to clone the repo, or [download](https://github.com/sashahafner/R-template/archive/refs/heads/main.zip) a ZIP archive.
+Extract the files, move to a suitable directory, navigate to `scripts/main.R`, and start editing the scripts to fit your project.
 
 # Some more details
-R Scripts are in the `scripts` subdirectory.
+R scripts are in the `scripts` subdirectory.
 This template is set up so all the R code can be run by running `main.R`, e.g., in an R console:
 ```
 > source('main.R')
