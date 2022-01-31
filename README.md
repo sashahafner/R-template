@@ -64,4 +64,4 @@ Here is some of my related work.
 * Introduction to data analysis: <https://github.com/sashahafner/CCPDA>
 * Introduction to R: <https://www.researchgate.net/publication/325170649_An_Introduction_to_R_for_Beginners>
 * Some useful functions: <https://github.com/sashahafner/jumbled>
-* More at <www.hafnerconsulting.com>
+* More at [www.hafnerconsulting.com](https://sites.google.com/hafnerconsulting.com/hafnerconsulting)
