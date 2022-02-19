@@ -41,18 +41,20 @@ If you find it useful, let me know by following or "starring" the repo.
 Feel free to use the "Issues" page for requests.
 
 # Justification
-I am sure what I have presented here is not close to perfect!
-But it is a structure that I have converged on over several years of data analysis projects. 
-Some original inspiration came from these sources: <https://stackoverflow.com/questions/1429907/workflow-for-statistical-analysis-and-report-writing> and <https://robjhyndman.com/hyndsight/workflow-in-r/>.
+What I have presented here is just one alternative for organizing data analysis projects.
+It is a structure that I have converged on over several years of projects. 
+Some original inspiration came from [this Stackoverflow post](https://stackoverflow.com/questions/1429907/workflow-for-statistical-analysis-and-report-writing) and [this blog entry](https://robjhyndman.com/hyndsight/workflow-in-r/).
 Some users may find the use of so many separate scripts confusing and unnecessary.
 Why not use one big script, or even a single RMarkdown file?
-I find the more modular approach used in this repo simpler for the following:
+I find the more modular approach used in this repo better for the following:
+
 * Getting a workflow overview: just check `main.R`
 * Isolating code problems: it is easy to find scripts by name and see which ones throw errors
-* Editing/writing/testing code: work in a single script, run the whole thing to test it
+* Editing/writing/testing code: work in a single script, run the whole thing to test it (no need to navigate to a particular line of code in a larger file)
 * And also perhaps re-using code: easy to copy individual scripts
-The modular approach given here is faster than a single large (or several) RMarkdown file(s) (although I have includedone for a record of data analysis output). 
-Lastly,this approach is not dependent on RStudio or any other particular software (unlike [R Notebooks](https://www.rstudio.com/blog/r-notebooks/) (which some people find quite annoying, and others wonder if they have completely fizzled out).
+
+The modular approach given here is faster than a single large (or several) RMarkdown file(s) (although I have included one for a record of data analysis output). 
+Lastly,this approach is not dependent on RStudio or any other particular software (unlike [R Notebooks](https://www.rstudio.com/blog/r-notebooks/).
 
 # Related work
 There are other repos on GitHub with a similar objective.
