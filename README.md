@@ -54,7 +54,7 @@ I find the more modular approach used in this repo better for the following:
 * And also perhaps re-using code: easy to copy individual scripts
 
 The modular approach given here is faster than a single large (or several) RMarkdown file(s) (although I have included one for a record of data analysis output). 
-Lastly,this approach is not dependent on RStudio or any other particular software (unlike [R Notebooks](https://www.rstudio.com/blog/r-notebooks/).
+Lastly,this approach is not dependent on RStudio or any other particular software (unlike [R Notebooks](https://www.rstudio.com/blog/r-notebooks/)).
 
 # Related work
 There are other repos on GitHub with a similar objective.
