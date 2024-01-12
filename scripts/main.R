@@ -4,7 +4,7 @@
 # RAD: If necessary (if not automatically done), set the working directory to the location of this script before running
 
 # RAD: Good practice to clear your workspace here, to avoid code that inadvertently requires some object created in an earlier version of your code
-# RAD: Particularly helpful for when you are no paying attention to a "stealth" loading of some .Rdata file! (But do try to avoid this.)
+# RAD: Particularly helpful for when you are not paying attention to a "stealth" loading of some .Rdata file! (But do try to avoid this.)
 rm(list = ls())
 
 # RAD: See individual scripts listed below for more info
